@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e0f7fa;
+  transition: background-color 0.3s;
+}
+
+.app.dark-mode {
+  background-color: #263238;
+}
+
+.theme-toggle {
+  margin: 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
